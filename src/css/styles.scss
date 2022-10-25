@@ -90,6 +90,10 @@ header {
   color: black;
 }
 
+/* Section Cuerpo */
+.main-section{
+  margin-top: 5rem;
+}
 #main-doc header {
   text-align: left;
 }
@@ -199,6 +203,7 @@ code {
   }
 }
 
+
 h5 {
   font-weight: 5rem;
   color: black;
@@ -211,6 +216,7 @@ footer{
   color: white;
   position: absolute;
   width: 100%;
+  margin-top: 8rem;
   header, h5{
     color: white;
   }
