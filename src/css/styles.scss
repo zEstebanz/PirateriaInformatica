@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html,
 body {
   min-width: 290px;
@@ -18,39 +23,41 @@ header {
 
 /*Portada*/
 
-.container-portada{
+.container-portada {
   width: 100%;
-  height: 400px;
+  height: 500px;
   margin-top: 3rem;
   position: relative;
   background-image: url(../img/portada.jpg);
   background-size: 200%;
-  animation: movimiento 20s infinite linear alternate;  
+  animation: movimiento 20s infinite linear alternate;
 }
 
-@keyframes movimiento{
-  from{
-      background-position: bottom left;
-  }to{
-      background-position: top right;
+@keyframes movimiento {
+  from {
+    background-position: bottom left;
+  }
+
+  to {
+    background-position: top right;
   }
 }
 
-.capa-gradient{
+.capa-gradient {
   width: 100%;
   height: 100%;
   position: absolute;
   opacity: 0.5;
 }
 
-.container-details{
+.container-details {
   width: 100%;
   max-width: 1200px;
   position: relative;
   margin: auto;
 }
 
-.details{
+.details {
   width: 100%;
   max-width: 500px;
   position: relative;
@@ -58,20 +65,20 @@ header {
   color: white;
 }
 
-.details h1{
+.details h1 {
   font-size: 40px;
   font-weight: 100;
   margin-left: 10px;
 }
 
-.details p{
+.details p {
   margin-top: 10px;
   font-size: 20px;
   font-weight: 100;
   margin-left: 10px;
 }
 
-.details button{
+.details button {
   padding: 10px 20px;
   font-size: 16px;
   background: none;
@@ -84,12 +91,10 @@ header {
   margin-left: 10px;
 }
 
-.details button:hover{
+.details button:hover {
   background: white;
   color: black;
 }
-
-
 
 #main-doc header {
   text-align: left;
@@ -120,7 +125,6 @@ header {
 
 #main-doc {
   position: absolute;
-  padding: 20px;
   margin-bottom: 110px;
 }
 
@@ -149,6 +153,7 @@ code {
 }
 
 @media only screen and (max-width: 815px) {
+
   /* For mobile phones: */
   #navbar ul {
     border: 1px solid;
@@ -171,7 +176,6 @@ code {
   #main-doc {
     position: relative;
     margin-left: 0px;
-    margin-top: 270px;
   }
 }
 
@@ -190,7 +194,13 @@ code {
   }
 }
 
-h5{
-    font-weight: 5rem;
-    color: black;
+h5 {
+  font-weight: 5rem;
+  color: black;
+}
+
+/* Referencias */
+
+#Referencia {
+  background-color: rgb(222, 222, 222);
 }
