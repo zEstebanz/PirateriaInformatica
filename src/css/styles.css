@@ -176,7 +176,7 @@ code {
   #main-doc {
     position: relative;
     margin-left: 0px;
-    margin-top: 270px;
+    margin-top: 0px;
   }
 }
 @media only screen and (max-width: 400px) {
