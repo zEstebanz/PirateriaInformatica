@@ -201,6 +201,11 @@ h5 {
 }
 
 /* Referencias */
-#Referencia {
-  background-color: rgb(222, 222, 222);
+footer {
+  background-color: #212529;
+  padding-bottom: 10px;
+  color: white;
+}
+footer header, footer h5 {
+  color: white;
 }/*# sourceMappingURL=styles.css.map */
