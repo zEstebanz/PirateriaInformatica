@@ -208,8 +208,9 @@ h5 {
 /* Referencias */
 footer {
   background-color: #212529;
-  padding-bottom: 10px;
   color: white;
+  position: absolute;
+  width: 100%;
 }
 footer header, footer h5 {
   color: white;
