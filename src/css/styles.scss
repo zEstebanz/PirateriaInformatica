@@ -43,12 +43,6 @@ header {
   }
 }
 
-.capa-gradient {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  opacity: 0.5;
-}
 
 .container-details {
   width: 100%;
@@ -121,6 +115,17 @@ header {
   color: #4d4e53;
   text-decoration: none;
   cursor: pointer;
+}
+
+/*Indice*/
+.main-indice{
+  background-color: #f7f7f7;
+}
+.indice{
+  font-size: 15px;
+  padding-left: 10rem;
+  margin-bottom: 3rem;
+  background-color: #f7f7f7;
 }
 
 #main-doc {
@@ -208,5 +213,5 @@ footer{
   header, h5{
     color: white;
   }
-
 }
+
