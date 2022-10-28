@@ -167,6 +167,7 @@ code {
   border-radius: 5px;
 }
 
+
 @media only screen and (max-width: 815px) {
 
   /* For mobile phones: */
@@ -196,6 +197,7 @@ code {
   .container-portada {
     height: 500px;
   }
+
 }
 
 @media only screen and (max-width: 400px) {
@@ -218,6 +220,14 @@ code {
 
   }
 
+}
+
+@media only screen and (min-width: 900px) {
+
+  .main-section,
+  .main-indice {
+    padding: 5rem 2rem;
+  }
 }
 
 h5 {
