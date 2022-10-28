@@ -107,7 +107,8 @@ header {
 }
 
 /* Section Cuerpo */
-.main-section, .main-indice {
+.main-section,
+.main-indice {
   padding: 3rem 2rem;
 }
 
@@ -218,7 +219,8 @@ code {
     min-width: 233px;
   }
   .container-portada {
-    height: 650px;
+    height: 700px;
+    background-size: 350%;
   }
 }
 h5 {
