@@ -107,11 +107,6 @@ header {
 }
 
 /* Section Cuerpo */
-.main-section,
-.main-indice {
-  padding: 3rem 2rem;
-}
-
 #main-doc header {
   text-align: left;
 }
@@ -208,7 +203,7 @@ code {
 }
 @media only screen and (max-width: 400px) {
   #main-doc {
-    margin: 0;
+    margin-left: -10px;
   }
   code {
     margin-left: -20px;
@@ -220,11 +215,7 @@ code {
   }
   .container-portada {
     height: 700px;
-    width: 130%;
-    background-size: 300%;
-  }
-  .main-indice {
-    width: 130%;
+    background-size: 260%;
   }
 }
 h5 {
