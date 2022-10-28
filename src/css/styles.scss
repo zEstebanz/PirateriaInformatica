@@ -203,8 +203,9 @@ code {
 }
 
 @media only screen and (max-width: 400px) {
+
   #main-doc {
-    margin-left: -10px;
+    margin: 0;
   }
 
   code {
@@ -218,8 +219,11 @@ code {
 
   .container-portada {
     height: 700px;
-    background-size: 350%;
-
+    width: 130%;
+    background-size: 300%;
+  }
+  .main-indice{
+    width: 130%;
   }
 
 }
