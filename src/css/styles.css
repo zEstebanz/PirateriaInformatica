@@ -252,4 +252,101 @@ footer h5 {
 
 br {
   margin: 7px;
+}
+
+/* Integrantes */
+.integrantes-del-equipo {
+  background-image: url(../img/portada.jpg);
+  background-size: 200%;
+  -webkit-animation: movimiento 20s infinite linear alternate;
+          animation: movimiento 20s infinite linear alternate;
+  height: 100%;
+  /*add responsive media quaries*/
+}
+.integrantes-del-equipo * {
+  margin: 0;
+  padding: 0;
+}
+@keyframes movimiento {
+  from {
+    background-position: bottom left;
+  }
+  to {
+    background-position: top right;
+  }
+}
+.integrantes-del-equipo h1 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  color: white;
+  font-weight: 20px;
+  font-family: sans-serif;
+}
+.integrantes-del-equipo li {
+  color: white;
+  font-family: sans-serif;
+}
+.integrantes-del-equipo .container {
+  width: 100%;
+  height: auto;
+  padding-bottom: 100px;
+  background-color: #212529;
+  /*Add flex box style*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+.integrantes-del-equipo .box {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  box-sizing: border-box;
+  font-size: 20px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  text-align: center;
+  background-color: yellow;
+}
+.integrantes-del-equipo .box img {
+  width: 200px;
+  height: 200px;
+}
+.integrantes-del-equipo .box button {
+  background-color: yellow;
+  border: none;
+  width: 200px;
+  font-family: sans-serif;
+}
+.integrantes-del-equipo .box button a {
+  text-decoration: none;
+  color: #212529;
+  font-weight: 50px;
+}
+.integrantes-del-equipo .box button a:hover {
+  text-decoration: none;
+  color: blue;
+  font-weight: 50px;
+}
+@media screen and (max-width: 1200px) {
+  .integrantes-del-equipo .box {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .integrantes-del-equipo .box {
+    width: 90%;
+  }
+}
+.integrantes-del-equipo ul li {
+  margin-top: 2rem;
+  font-size: 30px;
+  margin-left: 30px;
 }/*# sourceMappingURL=styles.css.map */
