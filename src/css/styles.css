@@ -200,6 +200,10 @@ code {
   .container-portada {
     height: 500px;
   }
+  .main-section,
+.main-indice {
+    padding-top: 2.5rem;
+  }
 }
 @media only screen and (max-width: 400px) {
   #main-doc {
@@ -225,7 +229,7 @@ code {
 @media only screen and (min-width: 900px) {
   .main-section,
 .main-indice {
-    padding: 5rem 2rem;
+    padding: 3rem 2rem;
   }
 }
 h5 {
@@ -244,4 +248,8 @@ footer {
 footer header,
 footer h5 {
   color: white;
+}
+
+br {
+  margin: 7px;
 }/*# sourceMappingURL=styles.css.map */

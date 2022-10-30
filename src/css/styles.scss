@@ -198,6 +198,11 @@ code {
     height: 500px;
   }
 
+  .main-section,
+  .main-indice {
+    padding-top: 2.5rem;
+  }
+
 }
 
 @media only screen and (max-width: 400px) {
@@ -231,7 +236,7 @@ code {
 
   .main-section,
   .main-indice {
-    padding: 5rem 2rem;
+    padding: 3rem 2rem;
   }
 }
 
@@ -253,4 +258,7 @@ footer {
   h5 {
     color: white;
   }
+}
+br{
+  margin: 7px;
 }
