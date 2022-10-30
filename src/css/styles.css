@@ -313,14 +313,14 @@ br {
       -ms-user-select: none;
           user-select: none;
   text-align: center;
-  background-color: yellow;
+  background-color: #7e7a3b;
 }
 .integrantes-del-equipo .box img {
   width: 200px;
   height: 200px;
 }
 .integrantes-del-equipo .box button {
-  background-color: yellow;
+  background-color: #7e7a3b;
   border: none;
   width: 200px;
   font-family: sans-serif;
