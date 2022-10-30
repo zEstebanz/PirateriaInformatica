@@ -345,6 +345,12 @@ br {
     width: 90%;
   }
 }
+@media screen and (max-width: 500px) {
+  .integrantes-del-equipo .box button {
+    width: 85px;
+    padding-right: 5rem;
+  }
+}
 .integrantes-del-equipo ul li {
   margin-top: 2rem;
   font-size: 30px;
