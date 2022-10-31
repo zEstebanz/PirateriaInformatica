@@ -134,6 +134,21 @@ header {
   cursor: pointer;
 }
 
+/*Estilos de etiqueta span*/
+span {
+  color: #212529;
+  font-family: cursive;
+}
+
+/* Linea divisora*/
+.linea {
+  border-top: 3px solid black;
+  height: 2px;
+  max-width: 50%;
+  padding: 0;
+  margin: 20px auto 0 auto;
+}
+
 /*Indice*/
 .main-indice {
   background-color: #f7f7f7;
@@ -235,6 +250,7 @@ code {
 h5 {
   font-weight: 5rem;
   color: black;
+  margin-left: 10px;
 }
 
 /* Referencias */
@@ -254,6 +270,19 @@ br {
   margin: 7px;
 }
 
+hr {
+  color: #212529;
+  width: 50%;
+  border: 10px;
+}
+
+/* UI de Imagenes*/
+@media screen and (max-width: 600px) {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
 /* Integrantes */
 .integrantes-del-equipo {
   background-image: url(../img/portada.jpg);
