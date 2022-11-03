@@ -253,6 +253,23 @@ h5 {
   margin-left: 10px;
 }
 
+/*Titulos*/
+h4 {
+  color: #7e4d27;
+}
+
+h5 {
+  color: #411e87;
+}
+
+ul h5 {
+  color: #277e67;
+}
+
+header {
+  color: #0f5791;
+}
+
 /* Referencias */
 footer {
   background-color: #212529;
@@ -286,7 +303,7 @@ hr {
     padding-left: 3rem;
   }
 }
-figcaption {
+.texto-imagen {
   color: gray;
   font-size: 13px;
 }
